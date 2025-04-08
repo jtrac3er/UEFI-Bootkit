@@ -1,13 +1,13 @@
-#Bootkit Test
+# Bootkit Test
 
-##Goal
+## Goal
 
 This project should help me to understand bootkits on UEFI. The goal is to disable some CPU cores on startup
 and reserve some memory in UEFI for the bootkit-code, then use the disabled CPUs to run the bootkit code in 
 background, without the OS noticing it. 
 
 
-##Capabilities
+## Capabilities
 
 Yet, the code runs on QEMU and also on VirtualBox (both use EDKII UEFI). The program by now contains only tests to disable CPU Cores and allocating memory. This works fine. 
 
